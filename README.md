@@ -2,7 +2,7 @@ CAST / ENG
 
 # Book My Hotel
 
-Este proyecto es un sitio web de reservas de hoteles desarrollado con la pila MERN (MongoDB, Express.js, React.js, Node.js). Permite a los usuarios buscar hoteles, ver detalles y hacer reservas.
+Book My Hotel es una aplicación web para reservas de hoteles, desarrollada con la pila MERN (MongoDB, Express.js, React.js, Node.js). Proporciona a los usuarios una experiencia sencilla para buscar, gestionar reservas y administrar hoteles.
 
 ## Características
 
@@ -10,9 +10,9 @@ Este proyecto es un sitio web de reservas de hoteles desarrollado con la pila ME
 - **Búsqueda de hoteles:** Busque hoteles según ubicación, fecha y otros filtros.
 - **Gestión de reservas:** Vea el historial de reservas y administre las reservas actuales.
 - **Panel de administración:** Panel de administración para administrar hoteles, reservas y usuarios.
-<!-- - **Cargas de imágenes:** Integración con Cloudinary para cargar y administrar imágenes de hoteles. -->
+- **Cargas de imágenes:** Integración con Cloudinary para cargar y administrar imágenes de hoteles.
 - **Diseño adaptable:** Interfaz compatible con dispositivos móviles para una experiencia de usuario perfecta.
-  
+
 ## Tecnologías utilizadas
 
 - **Frontend:** React.js, HTML/CSS, Bootstrap (or any other UI framework)
@@ -25,21 +25,19 @@ Este proyecto es un sitio web de reservas de hoteles desarrollado con la pila ME
 1. Clonar el repositorio:
 
    ```bash
-   git clone https://github.com/annahico/FINAL-PROJECT_Booking-FullStack
+   git clone https://github.com/annahico/FINAL-PROJECT_Booking_Backend
    ```
 
 2. Instalar dependencias:
 
    ```bash
-   cd frontend
    npm install
-   cd ../backend
-   npm install
+   npx tsc
    ```
 
 3. Configurar variables de entorno:
 
- - Cree un archivo `.env` en el directorio `backend`.
+- Cree un archivo `.env`
 - Agregue las siguientes variables de entorno:
 - URI de MongoDB
 - Secreto de JWT
@@ -49,14 +47,6 @@ Este proyecto es un sitio web de reservas de hoteles desarrollado con la pila ME
 4. Iniciar el servidor backend:
 
    ```bash
-   cd backend
-   npm run dev
-   ```
-
-5. Inicie el servidor de desarrollo frontend:
-
-   ```bash
-   cd frontend
    npm run dev
    ```
 
@@ -64,11 +54,11 @@ Este proyecto es un sitio web de reservas de hoteles desarrollado con la pila ME
 
 Se aceptan contribuciones. Por favor, bifurque el repositorio y cree una solicitud de incorporación de cambios para cualquier mejora o corrección.
 
------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+---
 
 # Book My Hotel
 
-This project is a hotel booking website developed using the MERN stack (MongoDB, Express.js, React.js, Node.js). It allows users to search for hotels, view details, and make bookings.
+Book My Hotel is a web application for hotel bookings, developed using the MERN stack (MongoDB, Express.js, React.js, Node.js). It provides a simple interface for users to search for hotels, manage bookings, and perform administrative tasks.
 
 ## Features
 
@@ -76,7 +66,7 @@ This project is a hotel booking website developed using the MERN stack (MongoDB,
 - **Hotel Search:** Search for hotels based on location, date, and other filters.
 - **Booking Management:** View booking history and manage current bookings.
 - **Admin Panel:** Admin dashboard to manage hotels, bookings, and users.
-<!-- - **Image Uploads:** Integration with Cloudinary for uploading and managing hotel images. -->
+- **Image Uploads:** Integration with Cloudinary for uploading and managing hotel images.
 - **Responsive Design:** Mobile-friendly interface for seamless user experience.
 
 ## Technologies Used
@@ -91,21 +81,19 @@ This project is a hotel booking website developed using the MERN stack (MongoDB,
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/annahico/FINAL-PROJECT_Booking-FullStack
+   git clone https://github.com/annahico/FINAL-PROJECT_Booking_Backend
    ```
 
 2. Install dependencies:
 
    ```bash
-   cd frontend
    npm install
-   cd ../backend
-   npm install
+   npx tsc
    ```
 
 3. Set up environment variables:
 
-   - Create a `.env` file in the `backend` directory.
+   - Create a `.env` file
    - Add the following environment variables:
      - MongoDB URI
      - JWT secret
@@ -115,14 +103,6 @@ This project is a hotel booking website developed using the MERN stack (MongoDB,
 4. Start the backend server:
 
    ```bash
-   cd backend
-   npm run dev
-   ```
-
-5. Start the frontend development server:
-
-   ```bash
-   cd frontend
    npm run dev
    ```
 
